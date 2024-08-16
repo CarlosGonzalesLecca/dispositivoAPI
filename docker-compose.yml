@@ -1,0 +1,9 @@
+
+services:
+  app: 
+    image: dispositivo
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '8080:8080'
